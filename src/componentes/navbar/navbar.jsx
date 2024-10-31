@@ -1,4 +1,6 @@
 import "./nav.css"
+import { Link } from 'react-router-dom'
+
 export default function SidebarNav(){
 
 
@@ -12,9 +14,9 @@ export default function SidebarNav(){
                 </div>
                 <div className="contenedorBotonesAside">
                     <ul>
-                        <li>Inicio</li>
-                        <li>Añadir</li>
-                        <li>Editar</li>
+                        <Link to="/"><li>Inicio</li></Link>
+                        <Link to="/anadir"><li>Añadir</li></Link>
+                        <Link to="/editar"><li>Editar</li></Link>
                     </ul>
                 </div>
             </nav>

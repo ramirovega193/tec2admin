@@ -10,4 +10,6 @@
   padding: 0px;
   margin: 0px;
   font-family: monospace;
+  list-style: none;
+  text-decoration: none;
 }
