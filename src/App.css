@@ -1,0 +1,13 @@
+.cuerpo{
+    display: flex;
+    width: 100vw;
+  
+  }
+  
+  @media screen and (max-width: 700px) {
+  
+    .cuerpo{
+      flex-wrap: wrap;
+    }
+    
+  }

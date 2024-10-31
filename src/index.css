@@ -1,0 +1,13 @@
+:root {
+  --text: #161818;
+  --background: #e7ecef;    
+  --primary: #304d5f;    
+  --secondary: #8ebed7;    
+  --accent: #2b83b6;
+  
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: monospace;
+}
